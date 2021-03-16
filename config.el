@@ -40,6 +40,8 @@
       deft-extensions '("org", "txt")
       deft-recursive t)
 
+(setq-default flycheck-disabled-checkers '(python-mypy))
+
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
