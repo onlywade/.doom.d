@@ -44,6 +44,11 @@
 
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 
+(map! "M-g o" #'counsel-outline)
+
+(map! "M-g g" #'avy-goto-line)
+(map! "M-g M-g" #'avy-goto-line)
+
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
