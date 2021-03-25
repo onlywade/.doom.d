@@ -49,6 +49,11 @@
 (map! "M-g g" #'avy-goto-line)
 (map! "M-g M-g" #'avy-goto-line)
 
+(global-set-key (kbd "C-?") 'help-command)
+(global-set-key (kbd "C-h") 'delete-backward-char)
+
+(global-set-key (kbd "<M-backspace>")  'mode-line-other-buffer)
+
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
