@@ -54,6 +54,8 @@
 
 (global-set-key (kbd "<M-backspace>")  'mode-line-other-buffer)
 
+(add-to-list 'evil-emacs-state-modes 'dired-mode)
+
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
 ;; - `load!' for loading external *.el files relative to this one
